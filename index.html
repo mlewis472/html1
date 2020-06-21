@@ -3,34 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Kingdom</title>
-    
+    <title>HTML2</title>
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 50px;
+        }
+
+        td, th {
+            border: 2px solid;
+            text-align: left;
+            padding: 10px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .link-list a  {
+            text-decoration: none;
+            color: black;
+        }
+
+        #myheader {
+            color: firebrick;
+            text-align: center;
+            margin-top: 25px;
+        }
+    </style>
+
 </head>
 
-    <body>
+<body>
+
+    <h1 style="text-align: center;">Different types of ships</h1>
+
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>date of commission</th>
+            <th>length</th>
+        </tr>
+        <tr>
+            <td> <span style="color: red;"> Freedom-class</span> littoral combat ship</td>
+            <td>Novermeber 2008</td>
+            <td>378 ft (115 m)</td>
+        </tr>
+        <tr>
+            <td>San Antonio-class <span style="color: blue;">amphibious</span> transport dock</td>
+            <td>2006</td>
+            <td> <i>684 ft (208 m)</i> </td>
+        </tr>
+    </table>
+
+    <h2> <em>list of links about ships</em></h2>
+
+    <ul class="link-list">
+        <li> <a href="https://en.wikipedia.org/wiki/America-class_amphibious_assault_ship" target="_blank"> <b> click </b> here to see the  america-class amphibious assault ship</a> </li>
+        <li> <a href="messena.html" target="_blank">Check out this page for info about the Masséna</a></li>
+        <li id="shipname"></li>
+    </ul>
     
-        <h1 style="text-align: center; font-size: 3.5rem; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #fdb907; ">Different Species of the Animal kingdom</h1>
+    <h3 id="myheader">Check out these pictures</h3>
 
-        <h2 style="font-size: 2.5rem; margin-top: 50px; margin-left: 200px;">The <i>Brown</i> Bear</h2>
+    <h4>Masséna</h4>
+    <img src="images/massena.jpg" alt="Massena ship at sea" title="French ship">
+    <h4>America-class</h4>
+    <img src="images/uss-america.jpg" alt="USS America at sea">
+ 
+</body>
 
-        <img src="images/brownbear.jpg" alt="Brown bear standing in lake" style="width: 800px; height: 500px;">
-
-        <p>Brown bears have very large and curved claws, those present on the forelimbs being longer than those on the hind limbs.</p>
-
-        <h2 style="font-size: 2.5rem; margin-top: 50px; margin-left: 200px"> The Lions</h2>
-
-        <h3 style="margin-left: 200px; font-size: 1.5rem;">Male Lion</h3>
-
-        <img src="images/malelion.jpg" alt="Male lion resting" style="width: 800px; height: 500px;">
-
-        <p>An adult male’s <b>roar</b>  can be heard up to 8km away.</p>
-
-        <h3 style="margin-left: 200px; font-size: 1.5rem;"> Female Lion</h3>
-
-        <img src="images/femalelion.jpg" alt="Female Lion looking forward" style="width: 800px; height: 500px;">
-
-        <p title="These cubs typically weigh 2 to 4 lbs">Female lions have litters of one to <em>six cubs</em>, with the average being two to four. </p>
-  
-    </body>
-
+    <script>
+        document.getElementById("shipname").innerHTML = "Uss Arizona";
+    </script>
 </html>
