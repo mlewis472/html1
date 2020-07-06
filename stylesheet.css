@@ -1,0 +1,64 @@
+body {
+background-image: url(images/dot.png);
+font-family: 'Yellowtail', cursive;
+
+}
+
+.container {
+width: 960px;
+margin: 0 auto;
+}
+    
+    
+header {
+
+text-align: center;
+height: 200px;
+width: 960px;
+margin: 20px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, -300%);
+  }
+
+nav {
+background-color: brown;
+height: 400px;
+width: 300px;
+margin-left: 50px;
+margin-right: 20px;
+float: left;
+margin-bottom: 10px;
+;
+}
+
+section {
+background-color: cadetblue;
+width: 500px;
+height: 400px;
+margin-right: 10px;
+float: left;
+margin-bottom: 10px;
+}
+
+.mydiv {
+background-color: crimson;
+width: 100%;
+height: 150px;
+margin: 10px;
+
+}
+
+footer {
+    
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 30px;
+    clear: both;
+
+
+}
+

@@ -3,83 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML2</title>
-    <style>
-        body {
-            background-color: lightcyan;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 50%;
-            margin-top: 50px;
-        }
-
-        td, th {
-            border: 2px solid;
-            text-align: left;
-            padding: 10px;
-        }
-
-        h2 {
-            margin-top: 25px;
-            text-align: center;
-        }
-
-        .link-list a  {
-            text-decoration: none;
-            color: black;
-        }
-
-        #myheader {
-            color: firebrick;
-            text-align: center;
-            margin-top: 25px;
-        }
-    </style>
-
+    <title>Box Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <h1 style="text-align: center;">Different types of ships</h1>
-
-    <table>
-        <tr>
-            <th>Class</th>
-            <th>date of commission</th>
-            <th>length</th>
-        </tr>
-        <tr>
-            <td> <span style="color: red;"> Freedom-class</span> littoral combat ship</td>
-            <td>Novermeber 2008</td>
-            <td>378 ft (115 m)</td>
-        </tr>
-        <tr>
-            <td>San Antonio-class <span style="color: blue;">amphibious</span> transport dock</td>
-            <td>2006</td>
-            <td> <i>684 ft (208 m)</i> </td>
-        </tr>
-    </table>
-
-    <h2> <em>list of links about ships</em></h2>
-
-    <ul class="link-list">
-        <li> <a href="https://en.wikipedia.org/wiki/America-class_amphibious_assault_ship" target="_blank"> <b> click </b> here to see the  america-class amphibious assault ship</a> </li>
-        <li> <a href="messena.html" target="_blank">Check out this page for info about the Masséna</a></li>
-        <li id="shipname"></li>
-    </ul>
     
-    <h3 id="myheader">Check out these pictures</h3>
+<div class="container">
 
-    <h4>Masséna</h4>
-    <img src="images/massena.jpg" alt="Massena ship at sea" title="French ship">
-    <h4>America-class</h4>
-    <img src="images/uss-america.jpg" alt="USS America at sea">
- 
+    <header> 
+        <img src="images/header_bkg.png" alt="">
+        <div class="centered"><h1>Its a Girl</h1></div>
+    </header>
+
+    <main>
+        <nav>
+
+        </nav>
+
+        <section>
+            <div class="mydiv"></div>
+        </section>
+
+        <footer>
+
+
+
+        </footer>
+
+
+
+    </main>
+
+    
+
+
+
+
+
+</div>
+
+
+
+
 </body>
-
-    <script>
-        document.getElementById("shipname").innerHTML = "Uss Arizona";
-    </script>
 </html>
